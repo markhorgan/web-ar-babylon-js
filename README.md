@@ -1,6 +1,6 @@
-# Web VR with Babylon.js
+# Web AR with Babylon.js
 
-This is a basic example of working with VR on the web using Babylon.js.
+This is an example of working with AR on the web using Babylon.js. When a plane is detected a ring will appear. Tap the screen to place a box in the middle of the ring.
 
 ## Setup
 
@@ -14,4 +14,4 @@ Then type the following in a terminal:
 
 	npm run start
 
-Then open [http://localhost:1234](http://localhost:1234) in a WebXR capable browser. If you are using Chrome or Firefox on a desktop you will first need to install a WebXR emulator ([for Chrome](https://chrome.google.com/webstore/detail/webxr-api-emulator/mjddjgeghkdijejnciaefnkjmkafnnje?hl=en), [for Firefox](https://addons.mozilla.org/en-US/firefox/addon/webxr-api-emulator/)). Bring up the developer tools, select the WebXR tab and make sure a VR headset is selected in the drop-down on the left.
+This example needs to be run on a WebXR capable device that supports AR. On Android it requires Chrome v79 or above and on iOS you need to run it on the [Mozilla XR Viewer app](https://apps.apple.com/us/app/webxr-viewer/id1295998056). Make sure the desktop and smartphone are connected to the same WiFi network and enter the following `http://<IP address of desktop>:1234` in the address bar of the smartphone browser.

@@ -1,12 +1,12 @@
 {
-  "name": "web-vr",
+  "name": "web-ar-babylon-js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html"
   },
-  "author": "",
+  "author": "Mark Horgan",
   "license": "ISC",
   "dependencies": {
     "babylonjs": "^4.2.0"
